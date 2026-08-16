@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# --- Runtime-generated data (created by SuperGwenBackend.py / Gwen_Engine.py) ---
+SuperGwen_uploads/
+SuperGwen_outputs/
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Voice / audio artifacts (from voice_gate_verify, TTS, enrollment) ---
+Gwen_voiceprint.pt
+enrollment_clips/
+confirm.wav
+startup.wav
+*.wav
+
+# --- Model weights / caches (too large for git, re-downloaded on demand) ---
+pretrained_models/
+~/.cache/
+*.gguf
+*.safetensors
+
+# --- Chroma vector store ---
+daughter_ai_chroma/
+
+# --- Secrets / config (persona config, API keys, env) ---
+.env
+.env.*
+*persona*.json
+*persona*.yaml
+
+# --- macOS ---
+.DS_Store
+
+# --- Xcode (frontend, SuperGwen/) ---
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# --- Editor ---
+.vscode/
+.idea/

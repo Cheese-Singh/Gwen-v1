@@ -1,0 +1,39 @@
+# --- Web server / API ---
+fastapi
+uvicorn[standard]
+pydantic
+
+# --- HTTP / scraping ---
+requests
+beautifulsoup4
+ddgs
+
+# --- Numerics / audio I/O ---
+numpy
+sounddevice
+soundfile
+
+# --- MLX stack (Apple Silicon) ---
+mlx
+mlx-lm
+mlx-vlm
+mlx-whisper
+mlx-audio
+
+# --- Ollama client (cloud/local model backend) ---
+ollama
+
+# --- Vector store (used for semantic memory scaffolding) ---
+chromadb
+
+# --- Document I/O ---
+pymupdf
+reportlab
+python-docx
+Pillow
+
+# --- Image generation (Flux via mflux) ---
+mflux
+
+# --- Echo cancellation (optional at runtime, wrapped in try/except) ---
+aec-audio-processing
