@@ -42,7 +42,7 @@ The frontend and backend talk over a local WebSocket (`/ws`) for real-time event
 | MAX | Kimi K2.7 Code | cloud (Ollama) |
 
 Gwen falls back to a local tier automatically if cloud access is unavailable.
-Note : Kimi K2.7 is not available in FREE-TIER of ollama. For a completely free MAX tier model : nemotron, minimax-m3, and gpt:oss 120b as cloud models can be employed.
+Note: Kimi K2.7 is not available in FREE-TIER of ollama. For a completely free MAX tier : nemotron, minimax-m3, and gpt:oss 120b as cloud models can be employed.
 
 ## Setup
 
